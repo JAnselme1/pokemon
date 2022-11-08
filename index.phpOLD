@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container-fluid p-2 bg-primary text-white text-center ">
+	<div id=cadre>
+		<div class='titre titre2'>Collection Ju & Thierry</div>
+		<div class='titre4'>Bienvenue sur le site d'échange !<br>ami collectionneur, tu peux nous proposer <br>
+		des échanges en cliquant sur ce <a href="formulairePokemon.html"><span class="mail_index">mail</span></a></div>
+	</div>
+</div>
+<table class="container-fluid table mt-3" style="margin-bottom: 0;">
+<tr style='font-weight: bold'><td style='background-color: #696969;color: white;'>cliquer sur l'image pour
+	accéder à notre collection <span style='color: #FDFF7F'>(jaune pas encore dispo)</span></td>
+</tr>
+</table>
+
+<div class="container couleur_fond" style="text-align: center;">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 bordure" style='background-color: #FED861'>
+			<img style='background-color: white;' src=img/epee_et_bouclier.png alt=epb width=24px >
+			<span id=titrebleu>Épée et Bouclier</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #FDFF7F'>
+			<a href="listes_ju_LOR.php">
+				<img src='img/series/epee_et_bouclier/lor.png' alt=lor width=60px>
+				<img src='img/series/epee_et_bouclier/lor logo.png' alt=asrlogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=pgo">
+				<img src='img/series/epee_et_bouclier/pgo.png' alt=pgo width=60px>
+				<img src='img/series/epee_et_bouclier/pgo logo.png' alt=asrlogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=asr">
+				<img src='img/series/epee_et_bouclier/asr.png' alt=asr width=60px>
+				<img src='img/series/epee_et_bouclier/asr logo.png' alt=asrlogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=brs">
+				<img src='img/series/epee_et_bouclier/brs.png' alt=brs width=60px>
+				<img src='img/series/epee_et_bouclier/brs logo.png' alt=brslogo>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Lost Origin<br> LOR <br>
+			<span style='background-color:#F3F781'></span>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Pokémon GO<br> PGO <br>
+			<span style='background-color:#F3F781'></span>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Astral Radiance<br> ASR <br>
+			<span style='background-color:#F3F781'></span>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Brilliant Stars<br> BRS <br>
+			<span style='background-color:#F3F781'></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=fst">
+				<img src='img/series/epee_et_bouclier/fst.png' alt=fst width=60px>
+				<img src='img/series/epee_et_bouclier/fst logo.png' alt=fstlogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=cel">
+				<img src='img/series/epee_et_bouclier/cel.png' alt=brs width=60px>
+				<img src='img/series/epee_et_bouclier/cel logo.png' alt=cellogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=evs">
+				<img src='img/series/epee_et_bouclier/evs.png' alt=evs width=60px>
+				<img src='img/series/epee_et_bouclier/evs logo.png' alt=evslogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=cre">
+				<img src='img/series/epee_et_bouclier/cre.png' alt=brs width=60px>
+				<img src='img/series/epee_et_bouclier/cre logo.png' alt=crelogo>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Fusion Strike<br> FST
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Celebrations<br> CEL
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Evolving Skies<br> EVS
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Chilling Reign<br> CRE
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=bst">
+				<img src='img/series/epee_et_bouclier/bst.png' alt=fst width=60px>
+				<img src='img/series/epee_et_bouclier/bst logo.png' alt=bstlogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=shf">
+				<img src='img/series/epee_et_bouclier/shf.png' alt=brs width=60px>
+				<img src='img/series/epee_et_bouclier/shf logo.png' alt=shflogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=viv">
+				<img src='img/series/epee_et_bouclier/viv.png' alt=evs width=60px>
+				<img src='img/series/epee_et_bouclier/viv logo.png' alt=vivlogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=cpa">
+				<img src='img/series/epee_et_bouclier/cpa.png' alt=brs width=60px>
+				<img src='img/series/epee_et_bouclier/cpa logo.png' alt=cpalogo>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Battle Styles<br> BST
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Shining Fates<br> SHF
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Vivid Voltage<br> VIV
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Champion’s Path<br> CPA
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=daa">
+				<img src='img/series/epee_et_bouclier/daa.png' alt=fst width=60px>
+				<img src='img/series/epee_et_bouclier/daa logo.png' alt=daalogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=rcl">
+				<img src='img/series/epee_et_bouclier/rcl.png' alt=brs width=60px>
+				<img src='img/series/epee_et_bouclier/rcl logo.png' alt=rcllogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<a href="listes_ju.php?abbrevSerie=ssh">
+				<img src='img/series/epee_et_bouclier/ssh.png' alt=evs width=60px>
+				<img src='img/series/epee_et_bouclier/ssh logo.png' alt=sshjlogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Darkness Ablaze<br> DAA
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Rebel Clash<br> RCL
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Sword and Shield<br> SSH
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 bordure" style='background-color: #FED861'>
+			<img style='background-color: white;' src=img/epee_et_bouclier.png alt=epb width=24px>
+			<span id=titrebleu>Soleil et Lune</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #FDFF7F'>
+			<a href="listes_ju_CEC.php">
+				<img src='img/series/soleil_et_lune/cec.png' alt=cec width=60px>
+				<img src='img/series/soleil_et_lune/cec logo.png' alt=ceclogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #FDFF7F'>
+			<a href="listes_ju_HIF.php">
+				<img src='img/series/soleil_et_lune/hif.png' alt=hif width=60px>
+				<img src='img/series/soleil_et_lune/hif logo.png' alt=hiflogo>
+			</a>
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure">
+			<img src='img/suspension.jpg' alt=retour width=50em>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Cosmic Eclipse<br> CEC
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			Hidden Fates<br> HIF
+		</div>
+		<div class="col-xs-3 col-sm-3 bordure" style='background-color: #E0F8F7'>
+			à venir ...
+		</div>
+	</div>
+</div>
+
+<!--p> PRIX DES manquantes: <mark><?php /*echo array_sum($prix); */?></mark> </p-->
+
+</body>
+</html>

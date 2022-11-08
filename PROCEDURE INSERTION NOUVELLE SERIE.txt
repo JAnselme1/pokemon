@@ -1,0 +1,19 @@
+
+   ex de création de lor (lost origin)
+
+1) aller dans C:\wamp64\www\pokemon\v2\déja faits !
+   regarder pgoEN.txt et pgoFR.txt ==> recup pokecardex lorEN.txt et lorFR.txt ZZZvérifier que l'encodage des 
+        fichiers soit en UTF-8 sans BOM (les placer dans C:\wamp64\www\pokemon\v2)
+                                                       
+2) dans lectureCarteFR.php/lectureCarteEN.php ==> $abbrevSerie = "lor";
+
+3)  tester en local les fichiers lectureCarteFR.php et lectureCarteEN.php
+	rajouter dans la table "serie" la série LOR
+	
+
+4) à distance 
+FILEZILLACLIENT: uploader ces 4 fic vers o2switch (dans le dossier pokemon) ; 
+    les lancer http://www.thierryafpa.fr/pokemon/lectureCarteFR.php 
+	
+changement du path de connection.php et de deconnection.php (dans le dossier actuel)
+

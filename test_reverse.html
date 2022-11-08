@@ -1,0 +1,132 @@
+
+vous êtes connecté<br>$sql= Select nomSerieFR,nomSerieEn,nbCartes,nbSecretes from serie where abbreviationSerie LIKE 'CEL'<br><!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<style>
+td { 
+	border:1px solid black;
+}
+th { 
+	border:1px solid black;
+	background-color: grey;
+}
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.img1 {
+	display: block;
+}
+.titre {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+.titre1 {
+	color: red;
+	padding-left: 5em;
+}
+#cadre {
+	display: inline-block;
+	border: 1px solid;
+}
+#cadre2 {
+	display: block;
+	border: 1px solid;
+	background-color: orange;
+	width: 40%;
+}
+#brstg {
+	color: purple;
+}
+.R {
+	color: RoyalBlue;
+	font-weight: 900;
+	float: right;
+	padding-right: 1.1em;
+	font-size: 0.8em;
+	font-family: Times;
+}
+.reverse {
+	float: right;
+	padding-right: 0.5em;
+	padding-bottom: 0;
+}
+</style>
+</head>
+<body>
+<div id=cadre>
+<div class='titre titre1'>Ma liste</div>
+<img src=img/cel.png alt=cel width=170px>
+<img src='img/cel logo.png' alt=cellogo>
+<div class=titre>Célébrations<==> Celebrations &nbsp;&nbsp;&nbsp;&nbsp; <cite>50 cartes (25 secrètes)</cite> </div>
+</div>
+<table>
+<tr style='font-weight: bold'><td style='background-color: black;color: white'>légende :</td><td style='background-color: #fff973'>manquantes</td>
+<td style='background-color: palegreen'>doubles</td></tr>
+</table>
+<table>
+<thead>
+	<tr>
+		<th colspan="10">liste de nos cartes : </th>
+	</tr>
+</thead>
+<tbody>
+nbCartes: 50<br>nbLignes: 9<br><table><tr><td style='background-color: palegreen'>CEL001<br><span style='font-size: 0.7em'>Ho-Oh</span></td> 
+<td style='background-color: palegreen'>CEL002<img style='float: right;padding-right: 0.5em' src="./img/logo_reverse.png"><br><span style='font-size: 0.7em'>Reshiram</span><!--<img style='float: right;padding-right: 0.5em;padding-top: 0.1em' src="./img/logo_reverse3.png">--></td> 
+<td style='background-color: palegreen;padding-bottom: 0'>CEL003
+	<img class="reverse" src="./img/logo_reverse.png"><br>
+		<span style='font-size: 0.7em'>Kyogre </span>
+			<span class="R">R</span></td> 
+<td style='background-color: palegreen'>CEL004<br><span style='font-size: 0.7em'>Palkia</span></td> 
+<td style='background-color: palegreen'>CEL005<br><span style='font-size: 0.7em'>Pikachu</span></td> 
+<td style='background-color: palegreen'>CEL006<br><span style='font-size: 0.7em'>Pikachu Volant-V</span></td> 
+</tr><tr><td >CEL007<br><span style='font-size: 0.7em'>Pikachu Volant-VMAX</span></td> 
+<td >CEL008<br><span style='font-size: 0.7em'>Pikachu Surfeur-V</span></td> 
+<td >CEL009<br><span style='font-size: 0.7em'>Pikachu Surfeur-VMAX</span></td> 
+<td style='background-color: palegreen'>CEL010<br><span style='font-size: 0.7em'>Zekrom</span></td> 
+<td style='background-color: palegreen'>CEL011<br><span style='font-size: 0.7em'>Mew</span></td> 
+<td style='background-color: palegreen'>CEL012<br><span style='font-size: 0.7em'>Xerneas</span></td> 
+</tr><tr><td style='background-color: palegreen'>CEL013<br><span style='font-size: 0.7em'>Cosmog</span></td> 
+<td style='background-color: palegreen'>CEL014<br><span style='font-size: 0.7em'>Cosmovum</span></td> 
+<td >CEL015<br><span style='font-size: 0.7em'>Lunala</span></td> 
+<td >CEL016<br><span style='font-size: 0.7em'>Zacian-V</span></td> 
+<td style='background-color: palegreen'>CEL017<br><span style='font-size: 0.7em'>Groudon</span></td> 
+<td style='background-color: palegreen'>CEL018<br><span style='font-size: 0.7em'>Zamazenta-V</span></td> 
+</tr><tr><td style='background-color: palegreen'>CEL019<br><span style='font-size: 0.7em'>Yveltal</span></td> 
+<td style='background-color: palegreen'>CEL020<br><span style='font-size: 0.7em'>Dialga</span></td> 
+<td style='background-color: palegreen'>CEL021<br><span style='font-size: 0.7em'>Solgaleo</span></td> 
+<td style='background-color: palegreen'>CEL022<br><span style='font-size: 0.7em'>Lugia</span></td> 
+<td style='background-color: palegreen'>CEL023<br><span style='font-size: 0.7em'>Recherches Professorales</span></td> 
+<td >CEL024<br><span style='font-size: 0.7em'>Recherches Professorales</span></td> 
+</tr><tr><td >CEL025<br><span style='font-size: 0.7em'>Mew</span></td> 
+<td ><span style='font-weight: bold'>CELBS2<br></span><span style='font-size: 0.7em'>Tortank</span></td> 
+<td ><span style='font-weight: bold'>CELBS4<br></span><span style='font-size: 0.7em'>Dracaufeu</span></td> 
+<td ><span style='font-weight: bold'>CELBS15<br></span><span style='font-size: 0.7em'>Florizarre</span></td> 
+<td ><span style='font-weight: bold'>CELBS73<br></span><span style='font-size: 0.7em'>Faux Professeur Chen</span></td> 
+<td ><span style='font-weight: bold'>CELTR8<br></span><span style='font-size: 0.7em'>Léviator Obscur</span></td> 
+</tr><tr><td ><span style='font-weight: bold'>CELTR15<br></span><span style='font-size: 0.7em'>Et voilà la Team Rocket !</span></td> 
+<td ><span style='font-weight: bold'>CELGC15<br></span><span style='font-size: 0.7em'>Électhor de Rocket</span></td> 
+<td ><span style='font-weight: bold'>CELWP24<br></span><span style='font-size: 0.7em'>Pikachu De _____</span></td> 
+<td ><span style='font-weight: bold'>CELNG20<br></span><span style='font-size: 0.7em'>Mélo</span></td> 
+<td ><span style='font-weight: bold'>CELNR66<br></span><span style='font-size: 0.7em'>Magicarpe Brillant</span></td> 
+<td ><span style='font-weight: bold'>CELMA9<br></span><span style='font-size: 0.7em'>Groudon de Team Magma</span></td> 
+</tr><tr><td ><span style='font-weight: bold'>CELTRR86<br></span><span style='font-size: 0.7em'>Admin Rocket</span></td> 
+<td ><span style='font-weight: bold'>CELLM88<br></span><span style='font-size: 0.7em'>Mew ex</span></td> 
+<td style='background-color: #fff973'><span style='font-weight: bold'>CELDF93<br></span><span style='font-size: 0.7em'>Gardevoir ex δ</span></td> 
+<td ><span style='font-weight: bold'>CELPOP517<br></span><span style='font-size: 0.7em'>Noctali Étoile</span></td> 
+<td ><span style='font-weight: bold'>CELGE15<br></span><span style='font-size: 0.7em'>Kaorine Lv.45</span></td> 
+<td ><span style='font-weight: bold'>CELRR109<br></span><span style='font-size: 0.7em'>Luxray [GL] Lv.X</span></td> 
+</tr><tr><td ><span style='font-weight: bold'>CELSV145<br></span><span style='font-size: 0.7em'>Carchacrok [C] Lv.X</span></td> 
+<td ><span style='font-weight: bold'>CELHS107<br></span><span style='font-size: 0.7em'>Donphan</span></td> 
+<td ><span style='font-weight: bold'>CELBLW113<br></span><span style='font-size: 0.7em'>Reshiram</span></td> 
+<td style='background-color: #fff973'><span style='font-weight: bold'>CELBLW114<br></span><span style='font-size: 0.7em'>Zekrom</span></td> 
+<td ><span style='font-weight: bold'>CELNXD54<br></span><span style='font-size: 0.7em'>Mewtwo EX</span></td> 
+<td ><span style='font-weight: bold'>CELXY97<br></span><span style='font-size: 0.7em'>Xerneas EX</span></td> 
+</tr><tr><td style='background-color: #fff973'><span style='font-weight: bold'>CELROS76<br></span><span style='font-size: 0.7em'>Mega Rayquaza EX</span></td> 
+<td ><span style='font-weight: bold'>CELGRI60<br></span><span style='font-size: 0.7em'>Tokopiyon GX</span></td> 
+</tr></table></tbody>
+<br>
+</body>
+</html>
+vous êtes déconnecté
